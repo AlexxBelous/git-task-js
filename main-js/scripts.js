@@ -1,12 +1,8 @@
-/** ЗАДАЧА 12 - Создание объекта
+/** Длина строки
  *
- * 1. Создайте объект с тремя свойствами:
- *  - name
- *  - surname
- *  - favoriteNumber
+ * 1. Создайте переменную и присвойте ей любую строку
  *
- * 2. Выведите в консоль строку
- * "My name is <name> <surname> and my favorite number is <favoriteNumber>"
+ * 2. Виведите в консоль длину этой строки
  */
 
 
@@ -49,18 +45,8 @@
 
 
 
+// const myFavoriteSport = 'Snowboarding'
 
+// const stringLength = myFavoriteSport.length
 
-
-
-
-
-// const person = {
-//     name: 'Alex',
-//     surname: 'Cordoba',
-//     favoriteNumber: 5,
-//   }
-  
-//   const personInfo = `My name is ${person.name} ${person.surname} and my favorite number is ${person.favoriteNumber}`
-  
-//   console.log(personInfo)
+// console.log(stringLength)
