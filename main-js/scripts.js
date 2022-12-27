@@ -1,14 +1,16 @@
-/** Объединение строк
+/** ЗАДАЧА 6 - Типы данных
  *
- * 1. Объявите три переменные с значениями:
- *  - ваше имя
- *  - ваша фамилия
- *  - ваша профессия
+ * 1. Объявите несколько переменных и присвойте им значения:
+ *  - строка
+ *  - число
+ *  - логическое
+ *  - null
+ *  - undefined
+ *  - объект
+ *  - массив
  *
- * 2. Создайте еще одну переменную. Ее значение должно быть, например
- * "Меня зовут <Имя> <Фамилия> и я <Профессия>"
- *
- * 3. Выведите значение последней переменной в консоль
+ * 2. Выведите в консоль тип каждого из значений
+ * используя оператор typeof
  */
 
 
@@ -54,17 +56,21 @@
 
 
 
-// const myName = 'Alex'
-// const mySurname = 'Cordoba'
-// const myProfession = 'Instructor'
 
-// // OPTION 1
-// const personInfo1 =
-//   'My name is ' + myName + ' ' + mySurname + ' and I am ' + myProfession
 
-// console.log(personInfo1)
 
-// // OPTION 2
-// const personInfo2 = `My name is ${myName} ${mySurname} and I am ${myProfession}`
+// const myString = 'abc'
+// const myNumber = 10
+// const myBoolean = true
+// const myNull = null
+// let myUndefined
+// const myObject = {}
+// const myArray = []
 
-// console.log(personInfo2)
+// console.log(typeof myString)
+// console.log(typeof myNumber)
+// console.log(typeof myBoolean)
+// console.log(typeof myNull)
+// console.log(typeof myUndefined)
+// console.log(typeof myObject)
+// console.log(typeof myArray)
