@@ -1,16 +1,12 @@
-/** Типы данных
+/** Объявление и вызов функции
  *
- * 1. Объявите несколько переменных и присвойте им значения:
- *  - строка
- *  - число
- *  - логическое
- *  - null
- *  - undefined
- *  - объект
- *  - массив
+ * 1. Объявите функцию, использую ключевое слово "function"
  *
- * 2. Выведите в консоль тип каждого из значений
- * используя оператор typeof
+ * 2. Не указывайте параметры функции
+ *
+ * 3. Внутри функции выведите в консоль своё имя
+ *
+ * 4. Вызовите функцию
  */
 
 
@@ -59,18 +55,16 @@
 
 
 
-// const myString = 'abc'
-// const myNumber = 10
-// const myBoolean = true
-// const myNull = null
-// let myUndefined
-// const myObject = {}
-// const myArray = []
 
-// console.log(typeof myString)
-// console.log(typeof myNumber)
-// console.log(typeof myBoolean)
-// console.log(typeof myNull)
-// console.log(typeof myUndefined)
-// console.log(typeof myObject)
-// console.log(typeof myArray)
+
+
+
+
+
+
+// function printMyName() {
+//     const myName = 'Bogdan'
+//     console.log(myName)
+//   }
+  
+//   printMyName()
