@@ -1,9 +1,11 @@
-/** Сравнение переменных
+/** ЗАДАЧА 22 - Остаток от деления
  *
- * 1. Сравните 2 переменные "myVariable1" и "myVariable2".
- * Выведите в консоль "true", если значение "myVariable1" меньше или равно "myVariable2".
+ * 1. Выведите в консоль остаток от деления "myNumber1" на "myNumber2".
  *
- * 2. Преобразуйте обе переменные в числа перед сравнением.
+ * 2. Какой приоритет и ассоциативность
+ * имеет оператор остаток от деления?
+ *
+ * 3. Проверьте ассоциативность самостоятельно
  */
 
 
@@ -61,37 +63,16 @@
 
 
 
+// const myNumber1 = 10 // 10 = 3 + 3 + 3 + 1
+// const myNumber2 = 3
 
+// console.log(myNumber1 % myNumber2)
 
+/**
+ * Приоритетность оператора % - 13 (выше чем у операторов + и -)
+ * Ассоциативность оператора % - left-to-right
+ *
+ * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
+ */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// let myVariable1 = 10
-// let myVariable2 = '5'
-
-// // Вариант 1 конвертации строки в число
-// console.log(parseInt('25'))
-// console.log(typeof parseInt('25'))
-
-// // Вариант 2 конвертации строки в число
-// console.log(+'35')
-// console.log(typeof +'35')
-
-// console.log(parseInt(myVariable1) <= parseInt(myVariable2))
-
-// myVariable1 = '20'
-// myVariable2 = 100
-
-// console.log(parseInt(myVariable1) <= parseInt(myVariable2))
+// console.log(((100 % 23) % 5) % 3)
