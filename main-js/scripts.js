@@ -1,10 +1,8 @@
-/** Добавление элементов в массив
+/** ЗАДАЧА 20 - Дата
  *
- * 1. Создайте любой массив
+ * 1. Создайте переменную и присвойте ей текущее время в миллисекундах
  *
- * 2. Добавьте в конец массива несколько новых элементов
- *
- * 3. Выведите в консоль длину результирующего массива
+ * 2. Выведите значение в консоль
  */
 
 
@@ -64,15 +62,8 @@
 
 
 
-// const myNumbers = [4, 15, 107, 80]
+// const currentDate = new Date()
 
-// console.log(myNumbers)
+// const currentDateInMs = currentDate.getTime()
 
-// myNumbers.push(10)
-
-// console.log(myNumbers)
-
-// myNumbers.push(5, 25)
-
-// console.log(myNumbers)
-// console.log(myNumbers.length)
+// console.log(currentDateInMs)
