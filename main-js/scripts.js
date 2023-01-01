@@ -1,11 +1,6 @@
-/** ЗАДАЧА 22 - Остаток от деления
+/** ИЛИ и И операторы
  *
- * 1. Выведите в консоль остаток от деления "myNumber1" на "myNumber2".
- *
- * 2. Какой приоритет и ассоциативность
- * имеет оператор остаток от деления?
- *
- * 3. Проверьте ассоциативность самостоятельно
+ * Что будет выведено в консоль?
  */
 
 
@@ -17,62 +12,19 @@
 
 
 
+console.log(3 || (true && null) || false) // <-- 3
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// const myNumber1 = 10 // 10 = 3 + 3 + 3 + 1
-// const myNumber2 = 3
-
-// console.log(myNumber1 % myNumber2)
-
-/**
- * Приоритетность оператора % - 13 (выше чем у операторов + и -)
- * Ассоциативность оператора % - left-to-right
- *
- * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
+/** ШАГ 1
+ * (true && null)
+ *  null
  */
 
-// console.log(((100 % 23) % 5) % 3)
+/** ШАГ 2
+ * 3 || null || false
+ * 3
+ */
+
+// console.log(true && null && 10) // <-- null
+// console.log(true && 'abc' && 10) // <-- 10
+
+// console.log(10 || false) // <-- 10
