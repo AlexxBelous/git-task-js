@@ -1,9 +1,10 @@
-/**  Перебор элементов массива
+/** Добавление элементов в массив
  *
- * 1. Создайте массив с несколькими элементами
+ * 1. Создайте любой массив
  *
- * 2. Используя один из методов массивов, переберите все элементы
- * и выведите каждый элемент в консоль
+ * 2. Добавьте в конец массива несколько новых элементов
+ *
+ * 3. Выведите в консоль длину результирующего массива
  */
 
 
@@ -58,6 +59,20 @@
 
 
 
-// const myArray = ['abc', true, null, undefined, 200]
 
-// myArray.forEach((element) => console.log(element))
+
+
+
+
+// const myNumbers = [4, 15, 107, 80]
+
+// console.log(myNumbers)
+
+// myNumbers.push(10)
+
+// console.log(myNumbers)
+
+// myNumbers.push(5, 25)
+
+// console.log(myNumbers)
+// console.log(myNumbers.length)
