@@ -1,74 +1,49 @@
-/** Альтернативные бинарные операторы
+/** ЗАДАЧА 25 - Выражение или инструкция
  *
- * В каждом выражении замените два оператора на один бинарный
+ * Определите тип каждой конструкции JavaScript:
+ *  - выражение (expression)
+ *  - инструкция (statement)
+ *  - выражение-инструкция (expression statement)
  */
 
+// expression statement
+15
 
+// statement
+const myObject = {
+  // Object literal is expression
+  x: 10,
+  y: true,
+}
 
+// expression statement
+myObject.z = 'abc' // <-- expression
 
+// expression statement
+delete myObject.x
 
+// statement
+let newVariable
 
+// expression statement
+newVariable = 30 + 5 // <-- expression
 
+// expression statement
+console.log(newVariable)
+/**             ^
+ *          expression
+ */
 
+// statement
+if (newVariable > 10) {
+  /**       ^
+   *    expression
+   */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// let a = 10
-
-// // a = a + 1
-// a += 1
-// console.log(a) // 11
-
-// // a = a * 2
-// a *= 2
-// console.log(a) // 22
-
-// // a = a - 5
-// a -= 5
-// console.log(a) // 17
-
-// // a = a / 2
-// a /= 2
-// console.log(a) // 8.5
+  // expression statement
+  console.log(`${newVariable} больше 10`) // <-- newVariable is expression
+  /**         _________________________
+   *                      ^
+   *                 expression
+   */
+}
