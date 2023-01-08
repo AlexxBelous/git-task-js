@@ -1,14 +1,15 @@
-/** Объединение строк
+/** Массив объектов
  *
- * 1. Объявите три переменные с значениями:
- *  - ваше имя
- *  - ваша фамилия
- *  - ваша профессия
+ * 1. Создайте массив с 3 объектами "cars"
  *
- * 2. Создайте еще одну переменную. Ее значение должно быть, например
- * "Меня зовут <Имя> <Фамилия> и я <Профессия>"
+ * 2. Каждый объект должен иметь три свойства
+ *  - carBrand (строка)
+ *  - price (число)
+ *  - isAvailableForSale (логическое значение)
  *
- * 3. Выведите значение последней переменной в консоль
+ * 3. Добавьте еще один объект в массив
+ *
+ * 4. Выведите результирующий массив в консоль
  */
 
 
@@ -49,22 +50,30 @@
 
 
 
-
-
-
-
-
-// const myName = 'Alex'
-// const mySurname = 'Cordoba'
-// const myProfession = 'Instructor'
-
-// // OPTION 1
-// const personInfo1 =
-//   'My name is ' + myName + ' ' + mySurname + ' and I am ' + myProfession
-
-// console.log(personInfo1)
-
-// // OPTION 2
-// const personInfo2 = `My name is ${myName} ${mySurname} and I am ${myProfession}`
-
-// console.log(personInfo2)
+// const cars = [
+//     {
+//       carBrand: 'BMW',
+//       price: 12000,
+//       isAvailableForSale: true,
+//     },
+//     {
+//       carBrand: 'Honda',
+//       price: 10000,
+//       isAvailableForSale: false,
+//     },
+//     {
+//       carBrand: 'Toyota',
+//       price: 8000,
+//       isAvailableForSale: true,
+//     },
+//   ]
+  
+//   const newCar = {
+//     carBrand: 'Tesla',
+//     price: 20000,
+//     isAvailableForSale: false,
+//   }
+  
+//   cars.push(newCar)
+  
+//   console.log(cars)
