@@ -1,22 +1,19 @@
-/** Конвертация JSON в JavaScript объекты
+/** Поиск объектов в массиве
  *
- * 1. Конвертируйте массив JSON объектов в массив объектов JavaScript
+ * 1. Создайте функцию "findPostById" с двумя параметрами:
+ *  - ID поста
+ *  - массив постов
  *
- * 2. Выведите в консоль результирующий массив
+ * 2. Функция должна вернуть пост с определенным ID
  *
- * 3. Выведите в консоль "postId" второго объекта
+ * 3. Если поста с определенным ID в массиве постов нет,
+ * функция должна вернуть "undefined"
  *
- * 4. Выведите в консоль "commentsQuantity" последнего объекта
+ * 4. Также внутри функции выведите в консоль ID поста
  */
 
 
 
-const postsJSON = [
-    '{"postId":1355,"commentsQuantity":5}',
-    '{"postId":5131,"commentsQuantity":13}',
-    '{"postId":6134,"commentsQuantity":2}',
-    '{"postId":2351,"commentsQuantity":8}',
-  ]
 
 
 
@@ -46,22 +43,32 @@ const postsJSON = [
 
 
 
-// const postsJSON = [
-//     '{"postId":1355,"commentsQuantity":5}',
-//     '{"postId":5131,"commentsQuantity":13}',
-//     '{"postId":6134,"commentsQuantity":2}',
-//     '{"postId":2351,"commentsQuantity":8}',
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function findPostById(postId, posts) {
+//     return posts.find((post) => post.postId === postId)
+//   }
+  
+//   const posts = [
+//     { postId: 1355, commentsQuantity: 5 },
+//     { postId: 5131, commentsQuantity: 13 },
+//     { postId: 6134, commentsQuantity: 2 },
 //   ]
   
-//   // // OPTION 1
-//   // const postsJS = postsJSON.map((post) => JSON.parse(post))
+//   console.log(findPostById(6134, posts)) // { postId: 6134, commentsQuantity: 2 }
   
-//   // OPTION 2
-//   const postsJS = postsJSON.map(JSON.parse)
-  
-//   // console.log(postsJSON)
-//   console.log(postsJS)
-  
-//   console.log(postsJS[1].postId)
-  
-//   console.log(postsJS[postsJS.length - 1].commentsQuantity)
+//   console.log(findPostById(4511, posts)) // undefined
