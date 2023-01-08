@@ -1,10 +1,12 @@
-/** Тернарный оператор
+/** Перебор элементов массива
  *
- * 1. Перепишите инструкцию "if .. else" без использования "else"
+ * 1. Создайте функцию "cityInfo" с двумя параметрами,
+ * которая возвращает строку
+ * "London is at the index 0 in the myCities array"
  *
- * 2. Перепишите содержимое функции, используя тернарный оператор
- *
- * 3. Замените обычную функцию на стрелочную функцию
+ * 2. Переберите все элементы массива "myCities",
+ * для каждого элемента вызовите функцию "cityInfo"
+ * и выведите в консоль результат вызова функции
  */
 
 
@@ -36,39 +38,9 @@
 
 
 
+// const myCities = ['London', 'New York', 'Singapore']
 
+// const cityInfo = (city, index) =>
+//   `${city} is at the index ${index} in the myCities array`
 
-
-
-
-
-
-
-
-
-
-// // ПОДЗАДАЧА 1
-// function isArrayEmpty(inputArray) {
-//   if (inputArray.length > 0) {
-//     return 'Массив не пустой'
-//   }
-
-//   return 'Массив пустой'
-// }
-
-// // ПОДЗАДАЧА 2
-// function isArrayEmpty(inputArray) {
-//   return inputArray.length > 0 ? 'Массив не пустой' : 'Массив пустой'
-// }
-
-// // ПОДЗАДАЧА 3 - Явный возврат результата
-// const isArrayEmpty = (inputArray) => {
-//   return inputArray.length > 0 ? 'Массив не пустой' : 'Массив пустой'
-// }
-
-// ПОДЗАДАЧА 3 - Неявный возврат результата
-const isArrayEmpty = (inputArray) =>
-  inputArray.length > 0 ? 'Массив не пустой' : 'Массив пустой'
-
-console.log(isArrayEmpty([1, 3]))
-console.log(isArrayEmpty([]))
+// myCities.forEach((city, index) => console.log(cityInfo(city, index)))
