@@ -1,18 +1,18 @@
-/** Типы данных
+/** Итерация по свойствам объекта
  *
- * 1. Объявите несколько переменных и присвойте им значения:
- *  - строка
- *  - число
- *  - логическое
- *  - null
- *  - undefined
- *  - объект
- *  - массив
+ * 1. Переберите все собственные свойства объекта
  *
- * 2. Выведите в консоль тип каждого из значений
- * используя оператор typeof
+ * 2. Если имя свойства (ключ) равно "key1" или "key3",
+ * выведите значение свойства в консоль.
  */
 
+const myObject = {
+    key1: true,
+    key5: 10,
+    key3: 'abc',
+    key4: null,
+    key10: NaN,
+  }
 
 
 
@@ -50,27 +50,11 @@
 
 
 
-
-
-
-
-
-
-
-
-
-// const myString = 'abc'
-// const myNumber = 10
-// const myBoolean = true
-// const myNull = null
-// let myUndefined
-// const myObject = {}
-// const myArray = []
-
-// console.log(typeof myString)
-// console.log(typeof myNumber)
-// console.log(typeof myBoolean)
-// console.log(typeof myNull)
-// console.log(typeof myUndefined)
-// console.log(typeof myObject)
-// console.log(typeof myArray)
+  
+//   const objectKeys = Object.keys(myObject)
+  
+//   objectKeys.forEach((key) => {
+//     if (key === 'key1' || key === 'key3') {
+//       console.log(myObject[key])
+//     }
+//   })
