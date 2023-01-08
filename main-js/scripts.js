@@ -8,7 +8,8 @@
 
 
 
-
+let myVariable1 = 10
+let myVariable2 = '5'
 
 
 
