@@ -63,7 +63,7 @@
 
 
 // function printMyName() {
-//     const myName = 'Bogdan'
+//     const myName = 'Alex'
 //     console.log(myName)
 //   }
   
