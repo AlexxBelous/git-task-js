@@ -1,78 +1,20 @@
-/** ЗАДАЧА 22 - Остаток от деления
+/** Цикл "for .. in"
  *
- * 1. Выведите в консоль остаток от деления "myNumber1" на "myNumber2".
- *
- * 2. Какой приоритет и ассоциативность
- * имеет оператор остаток от деления?
- *
- * 3. Проверьте ассоциативность самостоятельно
+ * Внутри цикла "for .. in" перед выводом значения свойства в консоль
+ * выполните проверку того, что свойство является
+ * собственным свойством объекта
  */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// const myNumber1 = 10 // 10 = 3 + 3 + 3 + 1
-// const myNumber2 = 3
-
-// console.log(myNumber1 % myNumber2)
-
-/**
- * Приоритетность оператора % - 13 (выше чем у операторов + и -)
- * Ассоциативность оператора % - left-to-right
- *
- * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
- */
-
-// console.log(((100 % 23) % 5) % 3)
+const myObject = {
+    name: 'Mike',
+    age: 30,
+    city: 'London',
+  }
+  
+  Object.prototype.country = 'England'
+  
+  for (let key in myObject) {
+    if (myObject.hasOwnProperty(key)) {
+      console.log(myObject[key])
+    }
+  }
