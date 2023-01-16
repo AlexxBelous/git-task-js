@@ -8,3 +8,11 @@
  *
  * 4. Вызовите функцию
  */
+
+
+function prinName() {
+  const myName = 'Alex';
+  console.log(myName);
+}
+
+prinName();

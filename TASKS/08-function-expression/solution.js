@@ -11,11 +11,10 @@
  * 5. Результат вызовов функции выведите в консоль
  */
 
-
-const myVar = function(name) {
-  const mySent = "Hell, " + name;
-  console.log(mySent);
+const hello = function (name) {
+  return 'Привет, ' + name
 }
 
-myVar('Alex');
-myVar('Ronalde');
+console.log(hello('Богдан'))
+
+console.log(hello('Ольга'))
