@@ -12,58 +12,23 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// const cars = [
-//   {
-//     carBrand: "BMW",
-//     price: 12000,
-//     isAvailableForSale: true,
-//   },
-//   {
-//     carBrand: "Honda",
-//     price: 10000,
-//     isAvailableForSale: false,
-//   },
-//   {
-//     carBrand: "Toyota",
-//     price: 8000,
-//     isAvailableForSale: true,
-//   },
-// ];
+const cars = [
+  {
+    carBrand: "BMW",
+    price: 12000,
+    isAvailableForSale: true,
+  },
+  {
+    carBrand: "Honda",
+    price: 10000,
+    isAvailableForSale: false,
+  },
+  {
+    carBrand: "Toyota",
+    price: 8000,
+    isAvailableForSale: true,
+  },
+];
 
 
 
